@@ -1,0 +1,50 @@
+﻿
+@import url(http://fonts.googleapis.com/earlyaccess/notonaskharabicui.css);
+
+/*
+ * PakType fonts http://paktype.sourceforge.net/download.php
+ * Code: https://svn.code.sf.net/p/paktype/code/Fonts/Deployment
+ */
+
+
+
+@font-face {
+    font-family: 'PakType Naskh Basic Wide';
+    font-style: normal;
+    src: url(PakTypeNaskhBasicWide.eot);
+    src: url(PakTypeNaskhBasicWide.eot?#iefix) format('embedded-opentype'), url(PakTypeNaskhBasicWide.woff2) format('woff2'), url(PakTypeNaskhBasicWide.woff) format('woff'), url(PakTypeNaskhBasicWide.ttf) format('truetype'), url(PakTypeNaskhBasicWide.svg#svgFontName) format('svg'); /* Legacy iOS */
+}
+
+[data-aaya] {
+    display: block;
+    font-family: 'Noto Naskh Arabic';
+    padding-right: 10px;
+    color: black;
+    font-size: 10pt;
+}
+
+[data-aaya]:before {
+    content: attr(data-aaya) '. ';
+}
+
+[data-information] {
+    text-align: left;
+    direction: ltr;
+    padding-left: 10px;
+    font-family: 'Noto Naskh Arabic';
+    display: block;
+}
+
+[data-name] {
+    font-size: 26pt;
+    font-family: 'PakType Naskh Basic Wide','Noto Naskh Arabic UI';
+    text-align: center;
+    color: gold;
+    font-weight: lighter;
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;
+    display: block;
+}
+
+[data-sura] {
+    border: 5px groove green;
+}
